@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <h2>📇 Contact Manager</h2>
+    <p class="subtitle">Save your contacts securely</p>
+
+    <form id="contactForm">
+      <div class="input-group">
+        <input type="text" id="name" required>
+        <label>Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="phone" required>
+        <label>Phone</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" id="email" required>
+        <label>Email</label>
+      </div>
+
+      <button type="submit">Save Contact</button>
+    </form>
+
+    <p id="message"></p>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
